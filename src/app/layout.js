@@ -7,6 +7,7 @@ export const metadata = {
     template: '%s | devYisa'
   },
   description: 'Official portfolio of Yusuf Olamitunji Yisa (devYisa). Expert in Front-End Web & Mobile Development (Flutter, JS, MERN) and Language Technology Systems in West Africa. Founder of Easy Technology Company (ETC).',
+  themeColor: '#0f172a',
   keywords: [
     'Yusuf Olamitunji Yisa', 
     'devYisa', 
@@ -66,6 +67,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="theme-color" content="#0f172a" />
         {/* Tag canónica para evitar conteúdos duplicados se acederem por subdomínios da Vercel */}
         <link rel="canonical" href="https://ysintel.com" />
       </head>
