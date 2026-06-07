@@ -5,12 +5,16 @@
   font-family: sans-serif;
 }
 
-.body4 {
+.lastbody{
+  padding: 120px 40px;
   background: radial-gradient(circle at top left, rgba(59,130,246,0.15), transparent 30% ), radial-gradient(circle at bottom right, rgba(245,158,11,0.18), transparent 35% ), linear-gradient( to bottom, #0f172a, #111827, #020617);
-  color: #e2e8f0;
-  padding: 20px;
   min-height: 100vh;
-
+  color: #e2e8f0;
+}
+@media (max-width: 768px) {
+  .lastbody{
+    padding: 190px 40px;
+  }
 }
 .content4 {
   display: flex;

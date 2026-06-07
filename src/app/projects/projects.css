@@ -4,21 +4,30 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+
 .body2 {
   position: relative;
   background: radial-gradient(circle at 0% 100%, rgba(112, 112, 111, 0.35) 0%, rgba(53, 111, 126, 0.348) 35%, rgba(20, 99, 123, 0.92) 100%);
   background-color: #0c2533; 
-  color: #f8fafc; 
+  color: #f8fafc;
   padding: 20px;
-  min-height: 100vh;
 }
 @media(max-width: 768px) {
-    .body2{ padding: 30px 20px; }
+    .body2{ padding: 30px 40px; }
 }
 
+.wall-sections2{
+  margin-top: 100px;
+}
+@media(max-width: 768px) {
+.wall-sections2{ margin-top: 160px; }
+}
 .header {
-  padding: 1% 0;
-  margin-bottom: 4%;
+  padding: 1% 10px;
+  margin: 0 15px;
+  margin-bottom: 3%;
+
 }
 .mini-title {
   color: #67e8f9;
@@ -461,7 +470,7 @@
 .back-btn:hover {
   background: rgba(103, 232, 249, 0.08);
   color: white;
-  border-color: #67e8f9;
+  border-color: #67e8f944;
 }
 
 /* RESPONSIVE CONTROL */

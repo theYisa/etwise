@@ -24,18 +24,18 @@ export default function ProjectsPage() {
     { id: "p-2",
       nome: "School Website & SEO",
       ano: "2025",
-      organizacao: "Golden Heritage Group",
+      organizacao: "Golden Heritage College",
       fotoPrincipal: "/art (5).png",
       descricaoCurta:
-        "Website institucional premium otimizado para Google Lighthouse.",
-      paginas: "18 Páginas",
-      duracao: "3 Meses",
+        "A simple primary and language school website based in Gambia and Bissau.",
+      paginas: "4 Páginas",
+      duracao: "1 Meses",
       lingua: "EN",
     },
     { id: "p-3",
       nome: "Tunemac",
       ano: "2026",
-      organizacao: "Tunemac Systems",
+      organizacao: "Tunemac Music",
       fotoPrincipal: "/art (3).png",
       descricaoCurta:
         "Sistema desktop com armazenamento seguro e renderização assíncrona.",
@@ -51,24 +51,30 @@ export default function ProjectsPage() {
       ano: "2025",
       titulo: "Quiet Quitting in the Nigerian Healthcare Sector: Investigating Underlying Motives and Consequences on Corporate Productivity",
       editora: "JPMT 12 (3-4) pp. 30-41",
+      link: '/',
     },
     { id: "pub-2",
-      tipo: "Livro",
-      ano: "2026",
-      titulo: "Production-Grade Flutter Architectures",
-      editora: "JPMT 12 (3-4) pp. 30-41",
+      tipo: "Journal",
+      ano: "2024",
+      titulo: "Strategic procurement in the 21st century business and its impact on corporate performance of firms in the Nigerian manufacturing sector",
+      doi: 'https://doi.org/10.62763/ef/4.2024.55',
+      editora: "Economic Forum 14(4) pp. 55-64",
+      link: 'https://e-forum.com.ua/en/journals/tom-14-4-2024/strategichni-zakupivli-v-biznesi-xxi-stolittya-ta-yikh-vpliv-na-korporativnu-efektivnist-pidpriyemstv-virobnichogo-sektoru-nigeriyi',
     },
     { id: "pub-3",
       tipo: "Journal",
-      ano: "2026",
-      titulo: "Comparative Syntax & Prepositional Regency",
-      editora: "IJSAA Computational Linguistics Journal",
+      ano: "2025",
+      titulo: "Impact of Talent Management on Brain Crisis in the Nigerian Universities: Prospects and Challenges",
+      doi: 'ISSN:2814-2578',
+      editora: "Fuoye Journal 3(2) 334-349",
+      link: 'https://fjmie.fuoye.edu.ng/index.php/public_html/article/view/202/179',
     },
     { id: "pub-4",
-      tipo: "Livro",
-      ano: "2026",
-      titulo: "Structural Logic in Software Data Schemas",
-      editora: "Dev Science Publishing",
+      tipo: "Conference",
+      ano: "2025",
+      titulo: "Challenges of Talent Retention in the Healthcare Sector: Unveiling its Realities and Implications on the Sustainability of Healthcare Institutions in Africa",
+      doi: 'MEFkon 2025',
+      editora: "University Business Academy, Novi Sad",
     },
   ];
 
@@ -76,6 +82,7 @@ export default function ProjectsPage() {
     <main className="body2">
       <Egyptian/>
       <Navbar />
+
       <section className='wall-sections2'>
         <div className="header">
           <p className="mini-title"> ARCHITECTURES × PROJECT </p>

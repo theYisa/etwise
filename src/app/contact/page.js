@@ -1,41 +1,21 @@
 'use client';
 
 import React, { useState } from 'react';
-import { 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Globe, 
-  ArrowUpRight, 
-  MessageSquare, 
-  GitBranch, 
-  ScanFace, 
-  LinkIcon,
-  Binary,
-  GraduationCap,
-  Layers,
-  Sparkles,
-  BookmarkCheck,
-  Languages,
-  X,
-  Calendar,
-  Ticket
-} from 'lucide-react';
+import { Mail,Phone, MapPin, Globe, ArrowUpRight, MessageSquare, GitBranch, ScanFace, LinkIcon, Binary, GraduationCap, Layers, Sparkles, BookmarkCheck, Languages, X, Calendar, Ticket } from 'lucide-react';
 import Navbar from '@/components/navbar';
 import './contact.css';
 import Link from 'next/link';
 
 export default function Contact() {
-  // Estado para controlar se o Modal da Biografia está aberto
-  const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const profileMeta = {
-    developerName: "devYisa",
-    enterprise: "IFM (Intelligence for Management)",
-    domain: "ysintel.com",
+    developerName: "TheYisa",
+    enterprise: "eTWise (to advanced African Academia)",
+    domain: "etwise.com",
     telephony: "+245 955959589",
     email: "iamyisas@gmail.com",
-    location: "Zona 7, Bamdim, Bissau, Guinea-Bissau"
+    location: "Nigerian Ave, Bairro Militar, Bissau, Guinea-Bissau"
   };
 
   const coreFields = [
@@ -53,7 +33,7 @@ export default function Contact() {
     { name: "ResearchGate", link: "#", handle: "Research Footprint", icon: <GraduationCap size={14} /> },
     { name: "TikTok", link: "https://tiktok.com/@devyisa.o", handle: "TikTok", icon: <Ticket size={14} /> }
 
-  ];
+  ]
 
   const comprehensiveTimeline = [
     { year: "2025", month: "Out", title: "Escola Leopoldina Language Tech", location: "Bissau", detail: "Maintaining advanced Portuguese acquisition and structural syntax research at Escola Evangélica Irmã Leopoldina." },
@@ -68,12 +48,12 @@ export default function Contact() {
     { year: "2018", month: "Fev", title: "Corporate Customer Operations", location: "MultiChoice Africa (DSTV/GOTV)", detail: "Deployed as Customer Service Specialist, resolving latency architecture and customer account protocols." },
     { year: "2017", month: "Jan", title: "Academic Matrix Initialization", location: "University of Ilorin, Nigeria", detail: "Began formal university bachelor path, bridging sociological systems with organizational analytics." },
     { year: "2016", month: "Out", title: "Linguistic Systems Instruction (English)", location: "Funbim School, NG", detail: "Served as English Instructor, designing syntax paradigms and lexical correction routines." },
-    { year: "2015", month: "Ago", title: "Arabic Linguistics Instruction", location: "Modrasat Ansar-Islamiyat, NG", detail: "Appointed as Arabic Language Teacher, translating complex semantic systems and grammar frameworks." },
-    { year: "2013", month: "Mai", title: "Hardware Architecture Telephony Tech", location: "Faruk GSM, Lagos", detail: "Initialized engineering path by acquiring mobile telecommunications diagnostics and micro-hardware repairs." }
+    { year: "2015", month: "Ago", title: "Aquired Arabic Language Competency (Basic Level)", location: "Modrasat Ansar-Islamiyat, NG", detail: "Appointed as Arabic Language Teacher, translating complex semantic systems and grammar frameworks." },
+    { year: "2013", month: "Mai", title: "Commenced Career With Phone and Laptops Repair", location: "Faruk GSM, Lagos", detail: "Initialized engineering path by acquiring mobile telecommunications diagnostics and micro-hardware repairs." }
   ];
 
   return (
-    <main className="body4">
+    <main className="lastbody">
       <Navbar />
 
       <div className="content4">
